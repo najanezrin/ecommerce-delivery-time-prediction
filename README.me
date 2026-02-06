@@ -1,6 +1,6 @@
 # 📦 E-Commerce Delivery Time Prediction using Machine Learning
 
-## Description
+# Description
 This project predicts **delivery time (in days)** for e-commerce orders using machine learning techniques.  
 The prediction is made at the time of order placement using product, location, and logistics-related features.
 
@@ -8,7 +8,7 @@ The project demonstrates a **complete end-to-end ML workflow**, including data p
 
 ---
 
-##  Problem Statement
+#  Problem Statement
 Accurate delivery time estimation is critical for e-commerce platforms to:
 - Improve customer experience
 - Set realistic delivery expectations
@@ -18,12 +18,12 @@ The goal of this project is to predict the number of **delivery days** for each 
 
 ---
 
-## Dataset Overview
+# Dataset Overview
 - Dataset size: **50,000 rows**
 - Dataset type: **Synthetic but realistic**
 - Target variable: `delivery_days`
 
-### Features include:
+# Features include:
 - Product details: category, price, weight  
 - Location details: city, GPS coordinates, distance  
 - Logistics details: shipping mode, festival season, weather delay  
@@ -33,7 +33,7 @@ The goal of this project is to predict the number of **delivery days** for each 
 
 ---
 
-## Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 EDA was performed to understand delivery behavior and identify important factors affecting delivery time.
 
 Key findings:
@@ -44,7 +44,7 @@ Key findings:
 
 ---
 
-##  Feature Engineering
+#  Feature Engineering
 Feature engineering was applied to improve model learning:
 - Extracted date-based features from `order_date`:
   - `order_day`
@@ -56,14 +56,14 @@ Feature engineering was applied to improve model learning:
 
 ---
 
-## Feature Scaling
+# Feature Scaling
 Numeric features were scaled using **StandardScaler** for models sensitive to feature magnitude.  
 Scaling was applied only on training data to prevent data leakage.
 
 ---
 
-## Model Used
-### Random Forest Regressor
+# Model Used
+# Random Forest Regressor
 Random Forest was selected because:
 - It handles non-linear relationships effectively
 - It performs well on structured tabular data
@@ -71,19 +71,19 @@ Random Forest was selected because:
 
 ---
 
-## Model Evaluation
+# Model Evaluation
 The model was evaluated using:
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
 - R² Score
 - Actual vs Predicted comparison plots
 
-### Evaluation Note
+# Evaluation Note
 Very high evaluation scores were observed due to the deterministic nature of the synthetic dataset, where delivery time is strongly defined by logistics rules. This behavior is documented for transparency.
 
 ---
 
-## Key Learnings
+# Key Learnings
 - Feature engineering is more impactful than model selection
 - Extremely high accuracy can indicate deterministic data
 - Proper handling of dates and scaling is essential
@@ -91,7 +91,7 @@ Very high evaluation scores were observed due to the deterministic nature of the
 
 ---
 
-## Future Improvements
+# Future Improvements
 - Add real-world noise to simulate uncertainty
 - Convert regression to SLA classification (on-time vs delayed)
 - Introduce multi-warehouse routing
@@ -99,7 +99,7 @@ Very high evaluation scores were observed due to the deterministic nature of the
 
 ---
 
-## Author
+#Author
 **Naja Nesrin**  
 
 
