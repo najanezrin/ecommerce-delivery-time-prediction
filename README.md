@@ -1,4 +1,4 @@
-# 📦 E-Commerce Delivery Time Prediction using Machine Learning
+# E-Commerce Delivery Time Prediction using Machine Learning
 
 # Description
 This project predicts **delivery time (in days)** for e-commerce orders using machine learning techniques.  
